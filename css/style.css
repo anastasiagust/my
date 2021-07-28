@@ -1,0 +1,554 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    line-height: 25px;
+    color:#999;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ 
+.img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.button {
+    background: #4985FF;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    color:#fff;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 13px 36px 15px;
+    text-align: center;
+    width: 200px;
+    height: 45px;
+}
+
+.main-header {
+    height: 100vh;    
+    background: url(../img/groop-people.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.main-nav {
+    border-bottom: 1px solid #A1A1A1;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-menu a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+    padding: 40px 20px;
+}
+
+.main-menu a.active,
+.main-menu a:hover {
+    border-color: #fff;
+}
+
+
+.main-heading {
+    max-width: 829px;
+    padding: 0px 24px;
+    margin: 220px auto 0;
+    text-align: center;
+}
+
+.main-heading h1 {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-heading h2 {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 800;
+    margin: 20px 0 0;
+    padding: 0; 
+}
+
+
+.main-heading a {
+    margin-top: 50px;
+}
+
+/* !--service--*/
+
+.service-list {
+    padding-top: 110px;
+    padding-bottom: 105px;
+    text-align: center;
+}
+
+
+.service-list_heading {
+    max-width: 740px;
+    color: #323232;
+    margin: 0px auto;
+    font-weight: bold;
+    padding: 0px;
+    font-size: 36px;
+    line-height: 52px;
+}
+
+.service-list_text {
+    margin: 50px auto 0;
+    max-width: 730px;
+}
+
+.service-list_list {
+    list-style: none;
+    margin: 70px 0 0;
+    padding: 0;
+    display: flex;
+}
+
+.service-list_list-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.service-list_icon {
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4985FF;
+    border-radius: 50%;
+    box-shadow: 0 0 0 9px #fff, 0 0 0 10px #E0E0E0;
+    flex-shrink: 0;
+    margin: 10px 26px 10px 10px;
+
+}    
+
+
+.service-list_icon img {
+    display: block;
+}
+
+.service-list_decsription {
+    text-align: left;
+    line-height: 22px;
+    margin-top: 46px;
+
+}
+
+.service-list_description h3 {
+    padding: 0;
+    margin-top: 46px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+}
+
+
+.service-list_description p {
+    font-size: 14px;
+}
+
+.service-list_list-item + .service-list_list-item {
+    margin-left: 17px;
+}
+
+.service-list_link {
+    margin-top: 55px;
+}
+
+
+
+
+
+/*--container2 высокие стандарты-*/
+
+
+.container2 {
+    background: #F6F6F8;
+    padding: 100px 70px;
+    align-items: center;
+}
+
+.promo-wrapper {
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+    text-align: left;
+}
+
+.promoblock2 {
+    margin-top: 52px;
+}
+
+.promoblock2 h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #323232;
+}
+
+
+.promoblock2 p {
+    margin: 40px 121px 30px 0px;
+}
+
+.fotoblock {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.promoblock2 a {
+    color: #4985FF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+/* 125 */
+
+.proekt-125 {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 70px 0 0 0;
+}
+
+
+.proekt-125 span {
+    font-size: 36px;
+    line-height: 53px;
+    color: #000000;
+    padding-left: 20px;
+}
+
+.proekt-125 p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999; 
+}
+
+ 
+/* container3 */
+
+
+.container3 {
+    padding: 100px 85px;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%) 0 0 / 100% 50% no-repeat, #fff;
+}
+
+.works {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.works h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFFFFF;
+
+}
+
+
+.promoblock3  {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-inline-start: 0;
+    border-bottom: 1px solid #E0E0E0;
+
+}
+
+.promoblock3  li {
+    padding: 70px 30px 85px 0;
+}
+
+.promoblock3  h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    margin: 30px 30px 30px 0;
+}
+
+.promoblock3 p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    margin-bottom: 30px;
+
+}
+
+.promoblock3  span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4985FF;
+}
+
+.picture {
+    border-radius: 10px;
+}
+
+.promoblock3 a {
+    color: #4985FF;
+}
+
+/*!--promoblock4--*/
+
+
+.promoblock4 {
+    padding: 100px 0px 130px;
+    background: #F6F6F8;
+    text-align: center;
+
+}
+
+.our-proekt {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000;
+}
+
+.promoblock4 p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    padding-bottom: 70px;
+    width: 730px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.promoblock4 a {
+    margin: 50px 0;
+
+}
+.kod {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.kod li {
+    margin-left: 30px;
+}
+
+.kod img {
+    border-radius: 10px;
+
+}
+/*!--container5--*/
+
+.container5 {
+    height: 570px;
+    background-image: url(../img/groop-people.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    background-image:  rgba(255, 255, 255, 0.15);  
+
+}
+
+.promoblock5 h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    padding:  70px 0 30px;
+}
+
+.promoblock5 p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.button-video {
+    background: url(../img/build.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 970px;
+    height: 430px;
+    margin-top:70px;
+    border: 0px;
+    align-self: center;
+    padding-bottom: 85px;
+
+}
+
+.button-video::after { 
+    content: url(../img/video__button.svg);
+}
+
+/*--conteiner 6--*/
+
+
+.container6 {
+    text-align: center;
+    margin: 165px auto 85px;
+    border-top: 1px solid #E0E0E0;
+}
+
+.container6 h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    margin: 85px 0 20px;
+
+}
+
+.blocks {
+    margin: 0px auto;
+    width: 489px;
+    display: flex;
+
+}
+
+.container6 p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999;
+    margin-bottom: 30px;
+
+}
+
+.mailing-email {
+    width: 300px;
+    height: 45px;
+    background: #FFF;
+    font-size: 13px;
+    line-height: 21px;
+    color: #999;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px 0px 0px 30px;
+    border: 1px solid #F2F2F2;
+    padding-left: 33px;
+}
+
+.mailing-btn {
+    width: 190px;
+    height: 45px;
+    background: #4985FF;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0px 30px 30px 0px;
+    border: 0px;
+    margin-bottom: 35px;
+
+}
+
+.container6 span {
+    font-size: 13px;
+    line-height: 21px;
+    color: #999;
+}
+
+
+.main-footer {
+    background: #F6F6F8;
+    color: #999999;
+   
+}
+
+.footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: stretch;
+    padding-top: 70px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+
+.footer-icon {
+    text-align:start;
+    margin-bottom: 112px;
+}
+
+.footer  a {
+    text-decoration: none;
+}
+
+.colors {
+    color: #999999;
+}
+
+
+.icon,
+.link,
+.proekts,
+.social {
+    margin-bottom: 35px;
+    color: #000000;
+}
+
+
+.footer-icon li,
+.footer-link li,
+.footer-proekt li,
+.footer-social li {
+    list-style-type: none;
+}
+
+
+.footer-icon li + li,
+.footer-link li+li,
+.footer-proekt li+li, 
+.footer-social li+li {
+    margin-top: 30px;
+}
+
+.pravo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin-top: 30px; 
+} 
